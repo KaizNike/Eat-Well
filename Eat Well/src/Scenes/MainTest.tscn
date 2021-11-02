@@ -13,3 +13,13 @@ mesh = SubResource( 1 )
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.68744, 0 )
+
+[node name="CSGBox" type="CSGBox" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 9.09321, 0, 0 )
+use_collision = true
+width = 5.97684
+depth = 10.1129
+
+[node name="CSGBox2" type="CSGBox" parent="."]
+transform = Transform( 0.767322, -0.641262, 0, 0.641262, 0.767322, 0, 0, 0, 1, 5.73155, 0, 0 )
+use_collision = true
